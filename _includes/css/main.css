@@ -1,4 +1,7 @@
 
+
+
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -49,14 +52,17 @@ h1  {
 
 	}
 
+
+
 	.heading{
 		line-height: 1;
 		letter-spacing: 0.5px;
-		font-size: 1.6rem;
+		font-size: 1.8rem;
 		margin-bottom: 10px;
-		margin-top: 20px;
+		margin-top: 40px;
 		color: #a03021;
 	}
+
 
 .logo {
 
@@ -69,13 +75,16 @@ h1  {
 }
 
 .headercontent {
-	background-color: #56565a;
+	background-image: url(../img/ticks.png);
+	background-repeat: repeat;
+	background-color: #e2e1e1;
 
 }
 
 .containerall{
 	width: 90%;
-	padding-left: 20px;
+	margin: 25px auto -25px auto; /* Keeps it centered */
+	padding-bottom: 20px;
 }
 
 .logo img {
@@ -94,4 +103,57 @@ h1  {
 	.logo{
 	min-height: 200px;
 	}
+}
+
+
+.tagline{
+	margin: 20px auto 20px auto;
+	vertical-align: bottom;
+	display: block;
+	max-width: 94%;
+	max-height: 100%;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	font-size: 0.5rem;
+	line-height: 1.4em;
+	color: #56575b;
+	background-color: transparent;
+	border-top: solid thin #B2AB86;
+	border-bottom: solid thin #B2AB86;
+	text-transform: uppercase;
+	text-align: center;
+	}
+
+.slider-tagline{
+	max-width: 90%;
+	margin: 5px auto 5px auto;
+	padding:0;
+	letter-spacing: 1px;
+	font-size: 0.6rem;
+	}
+
+
+@media (max-width: 750px) {
+.tagline{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+
+	font-size: 1rem;
+
+
+	}
+}
+
+.text-muted {
+
+/*font-family: 'Archivo Narrow', sans-serif;
+font-weight: 300;*/
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+font-style: normal;
+color: #56575b;
+font-size: 1.7rem;
+
 }
