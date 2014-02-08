@@ -87,6 +87,13 @@ h1  {
 	padding-bottom: 20px;
 }
 
+@media screen and (min-width: 900px){
+.containerall{
+	width: 50%;
+	text-align: center;
+}
+}
+
 .logo img {
   display: block;
 	margin: 15px auto -15px auto; /* Keeps it centered */
@@ -94,14 +101,14 @@ h1  {
   width: 125px;
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 800px) {
 
 	.logo img {
 	width: 140px;
 }
 
 	.logo{
-	min-height: 200px;
+	min-height: 215px;
 	}
 }
 
@@ -124,6 +131,12 @@ h1  {
 	text-align: center;
 	}
 
+@media (min-width: 500px) {
+	.tagline{
+		max-width: 60%;
+	}
+ }
+
 .slider-tagline{
 	max-width: 90%;
 	margin: 5px auto 5px auto;
@@ -132,6 +145,11 @@ h1  {
 	font-size: 0.6rem;
 	}
 
+@media (min-width: 800px) {
+.slider-tagline{
+	font-size: 1rem;
+}
+ }
 
 @media (max-width: 750px) {
 .tagline{
@@ -155,5 +173,90 @@ font-weight: 300;
 font-style: normal;
 color: #56575b;
 font-size: 1.7rem;
+
+}
+
+/* BOTTOM ------------------------------------------------------------*/
+#bottom {
+	background-image: url(../img/ticks.png);
+	background-repeat: repeat;
+	background-color: #e2e1e1;
+  position: relative;
+  min-height: 20px;
+
+}
+
+#bottom #content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+	color: #56555a;
+  font-size: 1.3rem;
+  line-height: 1.5em;
+  clear: both;
+  	-webkit-tap-highlight-color:transparent !important;
+	font-family: ‘Open Sans’, sans-serif; font-weight: 300;
+}
+#bottom #content a {
+  color: #56555a;
+}
+#bottom #content a:hover {
+  text-decoration: none;
+}
+
+
+.footer_copyright{
+	 padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+	color: #56555a;
+  font-size: 1rem;
+  line-height: 0.5em;
+  clear: both;
+  	-webkit-tap-highlight-color:transparent !important;
+	font-family: ‘Open Sans’, sans-serif; font-weight: 300;
+}
+
+
+a.privacy,
+a.privacy:link,
+a.privacy:active,
+a.privacy:visited,
+a.privacy:hover
+{
+	color:#56555a;
+	text-decoration: none;
+}
+
+a.footer,
+a.footer:link,
+a.footer:active,
+a.footer:visited,
+a.footer:hover
+{
+	color:#56555a;
+	text-decoration: none;
+}
+
+{
+	color:#56555a;
+	text-decoration: none;
+}
+.footer-menu{
+	display: none;
+}
+
+@media (min-width: 750px){
+	.footer-menu{
+	display:inline-block;
+	text-align: center;
+}
+}
+
+.footer-menu li{
+	display:inline-block;
+	padding-right: 15px;
+}
+
 
 }

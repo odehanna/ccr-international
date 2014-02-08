@@ -91,3 +91,88 @@ pre
 {
 	padding: 20px;
 }
+
+
+/* BIG SCREENS*/
+
+ @media (min-width: 900px) {
+	#header{
+		display: none;
+	}
+ }
+
+#header-big{
+	display: none;
+}
+
+ @media (min-width: 900px) {
+	#header-big{
+		display: block;
+	}
+ }
+
+/* Adjusting the margins, paddings and no list styles */
+
+#header-big{
+   margin: 0 auto -35px auto;
+}
+
+.navigation {
+margin:0;
+padding:0;
+list-style:none;
+}
+
+/* Little tricking with positions */
+.navigation li {
+float:left; /* Show list items inline */
+width:220px;
+position:relative;
+}
+
+/* Playing with Main Categories */
+.navigation li a {
+background-image: url(../img/ticks.png);
+font-size: 1rem;
+color:#56565b;
+display:block; /* Making sure a element covers whole li area */
+padding:8px 7px 8px 7px;
+text-decoration:none; /* No underline */
+text-align:center;
+text-transform:uppercase;
+}
+.navigation li a:hover {
+color:#a03223;
+}
+
+/* Sub Cat Menu stuff*/
+.navigation ul {
+position:absolute;
+left:0;
+display:none; /* Hide it by default */
+margin:0 0 0 -1px;
+padding:0;
+list-style:none;
+border-bottom:3px solid #a03223;
+}
+
+.navigation ul li {
+width:220px;
+float:left;
+border-top:none;
+}
+
+/* Sub Cat menu link properties */
+.navigation ul a {
+display:block; /* Making sure a element covers whole li area */
+height:15px;
+padding:8px 7px 25px 7px;
+color:#56565b;
+text-decoration:none;
+border-top:none;
+border-bottom:1px solid #fff;
+}
+
+.navigation ul a:hover {
+color:#a03223;
+}

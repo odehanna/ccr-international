@@ -71,6 +71,7 @@
     <div class="containerall" role="main" id="main">
       <h1 class="heading">
         WELCOME
+        <br>
         <span class="text-muted">TO CENTRE FOR CONFLICT RESOLUTION</span>
       </h1>
 
@@ -89,6 +90,41 @@
 
 
 
+
+
+
+
+
+<!-- FOORER -->
+
+  <footer class="footer">
+      <div class="grid" id="bottom">
+
+       <div class"unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2">
+         <ul class="footer-menu">
+          <li>
+               <li><a class="footer" href="#">HOME</a></li>
+               <li><a class="footer" href="#">ABOUT US</a></li>
+               <li><a class="footer" href="#">SERVICES</a></li>
+               <li><a class="footer" href="#">RESOURCES & TOOLS</a></li>
+               <li><a class="footer" href="#">ABOUT WORKPLACE CONFLICT</a></li>
+                <li><a class="footer" href="#">CONTACT US</a></li>
+          </li>
+        </ul>
+        </div>
+
+       <div id="content" class"unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2">
+            <p class="footer_copyright" ><small>© CCR International<a class="privacy" href="#">-Privacy / Legal</small></a></p>
+        </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+<!-- nav small screens  -->
     <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
     <script type="text/javascript" src="{{site.baseurl}}/js/jquery.mmenu.js"></script>
     <script type="text/javascript">
@@ -104,6 +140,26 @@
     $(".rslides").responsiveSlides();
   });
 </script>
+
+<!-- nav big screens  -->
+  <script type="text/javascript">
+// Executes the function when DOM will be loaded fully
+$(document).ready(function () {
+  // hover property will help us set the events for mouse enter and mouse leave
+  $('.navigation li').hover(
+    // When mouse enters the .navigation element
+    function () {
+      //Fade in the navigation submenu
+      $('ul', this).fadeIn();   // fadeIn will show the sub cat menu
+    },
+    // When mouse leaves the .navigation element
+    function () {
+      //Fade out the navigation submenu
+      $('ul', this).fadeOut();   // fadeOut will hide the sub cat menu
+    }
+  );
+});
+  </script>
 
 </body>
 </html>
