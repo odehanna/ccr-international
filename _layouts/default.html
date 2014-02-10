@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>CCR INTERNATIONAL</title>
+  <meta name="generator" content=
+  	"HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="handheldfriendly" content="true">
+ 	<meta name="mobileoptimized" content="240">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="CCR International - Centre for Conflict Resolution">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="msapplication-TileImage" content="pinned.png">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="msapplication-square70x70logo" content="{{site.baseurl}}/tiny.png"/>
+  <meta name="msapplication-square150x150logo" content="{{site.baseurl}}/square.png"/>
+  <meta name="msapplication-wide310x150logo" content="{{site.baseurl}}/wide.png"/>
+  <meta name="msapplication-square310x310logo" content="{{site.baseurl}}/large.png"/>
+
+  <link rel="apple-touch-icon-precomposed" href="{{site.baseurl}}/apple-touch-icon.png">
+  <link rel="icon" type="image/png"  href="{{site.baseurl}}/opera-icon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="{{site.baseurl}}/css/general.css">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+
+
+  <body id="top">
+    <div class="headercontent">
+      <header id="masthead">
+        <div class="logo">
+          <a href="index.html" rel="home"><img src="{{site.baseurl}}/img/logo.png" alt="CCR"></a>
+        </div>
+
+{% include nav.html %}
+
+      </header>
+    </div>
+
+
+<!-- home content  -->
+    <div class="containerall" role="main" id="main">
+      {{content}}
+
+
+    <hr class="featurette-divider">
+
+
+    <!-- FOORER -->
+
+  <footer class="footer">
+      <div class="grid" id="bottom">
+
+       <div class"unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2">
+         <ul class="footer-menu">
+          <li>
+               <li><a class="footer" href="#">HOME</a></li>
+               <li><a class="footer" href="#">ABOUT US</a></li>
+               <li><a class="footer" href="#">SERVICES</a></li>
+               <li><a class="footer" href="#">RESOURCES & TOOLS</a></li>
+               <li><a class="footer" href="#">ABOUT WORKPLACE CONFLICT</a></li>
+                <li><a class="footer" href="#">CONTACT US</a></li>
+          </li>
+        </ul>
+        </div>
+
+       <div id="content" class"unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2">
+            <p class="footer_copyright" ><small>© CCR International<a class="privacy" href="#">-Privacy / Legal</small></a></p>
+        </div>
+    </div>
+
+
+  </footer>
+
+  </div>
+
+
+
+
+<!-- nav small screens  -->
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/js/jquery.mmenu.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('nav#menu').mmenu({
+          slidingSubmenus: false
+        });
+      });
+    </script>
+    <script src="{{site.baseurl}}/js/responsiveslides.min.js"></script>
+    <script>
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
+</script>
+
+<!-- nav big screens  -->
+  <script type="text/javascript">
+// Executes the function when DOM will be loaded fully
+$(document).ready(function () {
+  // hover property will help us set the events for mouse enter and mouse leave
+  $('.navigation li').hover(
+    // When mouse enters the .navigation element
+    function () {
+      //Fade in the navigation submenu
+      $('ul', this).fadeIn();   // fadeIn will show the sub cat menu
+    },
+    // When mouse leaves the .navigation element
+    function () {
+      //Fade out the navigation submenu
+      $('ul', this).fadeOut();   // fadeOut will hide the sub cat menu
+    }
+  );
+});
+  </script>
+
+</body>
+</html>
