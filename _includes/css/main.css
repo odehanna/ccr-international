@@ -29,12 +29,28 @@ p{
 	font-size: 1.1rem;
 }
 
+
+.bullet {
+	list-style-type: square;
+	font-size: 1.1rem;
+	line-height: 150%;
+}
+
+@media only screen and (min-width: 900px){
+	.bullet{
+	margin: 0 auto 0 auto;
+	width: 60%;
+	}
+}
+
 @media only screen and (min-width: 900px){
 .paragraph{
-	width: 70%;
+	width: 60%;
 	margin: 0 auto 0 auto;
 	padding-bottom: 2rem;
+
 }
+
 }
 
 hr {
@@ -94,6 +110,19 @@ h1  {
 		color: #a03021;
 	}
 
+.heading-first{
+			line-height: 1;
+		letter-spacing: 0.5px;
+		font-size: 1.8rem;
+		margin-bottom: 2rem;
+		margin-top: 40px;
+		color: #a03021;
+}
+@media only screen and (min-width: 30rem){
+.heading-first{
+	text-align: center;
+}
+}
 
 .logo {
 
@@ -115,15 +144,8 @@ h1  {
 .containerall{
 	width: 100%;
 	margin: 25px auto -25px auto; /* Keeps it centered */
-	padding-bottom: 20px;
 }
 
-@media screen and (min-width: 900px){
-.containerall{
-	width: 90%;
-	text-align: center;
-}
-}
 
 .logo img {
   display: block;
@@ -210,11 +232,49 @@ font-size: 1.7rem;
 
 #info p{
 	text-align: left;
-	font-size: 1rem;
 }
 
 #info h1{
 	font-size: 1.3rem;
+}
+
+/* blockquotes ------------------------------------------------------------*/
+
+blockquote {
+  border-left: 5px solid #a03021;;
+  margin: 0 auto 0 auto;
+  padding: 0.5em 20px;
+  quotes: "\201C""\201D""\2018""\2019";
+  width: 100%;
+}
+
+
+@media screen and (min-width: 800px) {
+	blockquote{
+		width:80%;
+	}
+	}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 5rem;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+
+blockquote:before {
+content:”\201C”;
+}
+
+
+blockquote p {
+  display: inline;
+  text-align: left;
+}
+
+blockquote cite{
+	float: right;
 }
 
 
@@ -246,7 +306,9 @@ font-size: 1.7rem;
   text-decoration: none;
 }
 
-
+.footer{
+text-align: center;
+}
 
 .footer_copyright{
 	 padding-top: 15px;
