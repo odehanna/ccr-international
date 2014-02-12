@@ -167,7 +167,7 @@ h1  {
 
 
 .tagline{
-	margin: 20px auto 20px auto;
+	margin: 50px auto 20px auto;
 	vertical-align: bottom;
 	display: block;
 	max-width: 94%;
@@ -189,6 +189,7 @@ h1  {
 		max-width: 60%;
 	}
  }
+
 
 .slider-tagline{
 	max-width: 90%;

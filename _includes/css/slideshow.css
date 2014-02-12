@@ -26,6 +26,13 @@
 	border-radius: 3px;
   }
 
+ @media (min-width: 700px) {
+  .rslides {
+   width: 70%;
+  margin: 15px auto -15px auto; /* Keeps it centered */
+ }
+ }
+
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
