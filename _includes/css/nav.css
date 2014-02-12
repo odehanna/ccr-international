@@ -95,7 +95,7 @@ pre
 
 /* BIG SCREENS*/
 
- @media (min-width: 900px) {
+ @media (min-width: 910px) {
 	#header{
 		display: none;
 	}
@@ -105,7 +105,7 @@ pre
 	display: none;
 }
 
- @media (min-width: 900px) {
+ @media (min-width: 910px) {
 	#header-big{
 		display: block;
 	}
@@ -167,12 +167,16 @@ border-top:none;
 /* Sub Cat menu link properties */
 .navigation ul a {
 display:block; /* Making sure a element covers whole li area */
-height:15px;
-padding:8px 7px 25px 7px;
+height:50px;
 color:#56565b;
 text-decoration:none;
 border-top:none;
 border-bottom:1px solid #fff;
+}
+
+#sub{
+font-size: 0.8rem;
+padding:18px 7px 10px 7px;
 }
 
 .navigation ul a:hover {
