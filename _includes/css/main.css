@@ -306,7 +306,7 @@ blockquote:before {
 }
 
 blockquote:before {
-content:”\201C”;
+content: "“";
 }
 
 
