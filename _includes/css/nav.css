@@ -174,8 +174,8 @@ border-top:none;
 border-bottom:1px solid #fff;
 }
 
-.sub{
-font-size: 0.5rem;
+.navigation ul a.sub{
+font-size: 0.75rem;
 padding:18px 7px 10px 7px;
 }
 
