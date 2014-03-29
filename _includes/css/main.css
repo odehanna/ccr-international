@@ -86,9 +86,9 @@ right: 65px;
 
 @media only screen and (min-width: 900px){
 .paragraph{
-	width: 60%;
+	width: 80%;
 	margin: 0 auto 0 auto;
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
 
 }
 
@@ -272,13 +272,19 @@ font-size: 1.7rem;
 }
 
 
-#info p{
+.info p{
 	text-align: left;
 }
 
-#info h1{
+.info h1{
 	font-size: 1.3rem;
 }
+
+@media screen and (min-width: 800px) {
+	.info h1{
+	font-size: 2rem;
+}
+	}
 
 /* blockquotes ------------------------------------------------------------*/
 
