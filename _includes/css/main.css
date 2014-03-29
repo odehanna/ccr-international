@@ -80,7 +80,7 @@ right: 65px;
 @media only screen and (min-width: 900px){
 	.bullet{
 	margin: 0 auto 0 auto;
-	width: 60%;
+	width: 100%;
 	}
 }
 
