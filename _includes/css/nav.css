@@ -37,6 +37,27 @@ a, a:link, a:active, a:visited, a:hover
 	color: #fff;
 	text-decoration: underline;
 }
+
+a.link-to, a.link-to:link, a.link-to:active, a.link-to:visited
+{
+	color: #a03021;
+	text-decoration: underline;
+	font-size: 0.8rem;
+}
+
+ a.link-to:hover{
+ 		color: grey;
+	text-decoration: underline;
+	font-size: 0.8rem;
+ }
+
+@media only screen and (min-width: 400px){
+	a.link-to, a.link-to:link, a.link-to:active, a.link-to:visited, a.link-to:hover
+{
+	font-size: 1.5rem;
+}
+	}
+
 pre
 {
 	font-size: 12px;
