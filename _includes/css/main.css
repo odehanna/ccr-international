@@ -24,7 +24,7 @@ body{
   }
 
 p{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: 'Domine', serif;
 	line-height: 1.5;
 	font-size: 1.1rem;
 }
@@ -72,6 +72,7 @@ right: 65px;
 }
 
 .bullet {
+	font-family: 'Domine', serif;
 	list-style-type: square;
 	font-size: 1.1rem;
 	line-height: 150%;
@@ -100,7 +101,7 @@ hr {
        box-sizing: content-box;
 }
 
-#in{
+.in{
 
 width:95%;
  border-top: 1px solid #fff;
@@ -110,7 +111,7 @@ width:95%;
 
 
 @media only screen and (min-width: 30rem){
-	#in{
+.in{
 		display: none;
 	}
 	#in-big{
@@ -283,6 +284,7 @@ font-size: 1.7rem;
 @media screen and (min-width: 800px) {
 	.info h1{
 	font-size: 2rem;
+	padding-top: 1rem;
 }
 	}
 
