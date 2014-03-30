@@ -147,8 +147,9 @@ html.mm-blocking #mm-blocker {
       overflow: hidden;
       color: #fff;
       line-height: 20px;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 0.95rem;
+      font-family: 'Oswald', sans-serif;
+      letter-spacing:1px;
+      font-size: 0.9rem;
       display: block;
       padding: 10px 10px 10px 20px;
       margin: 0; }

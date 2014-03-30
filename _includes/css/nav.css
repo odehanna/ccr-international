@@ -116,7 +116,7 @@ margin: 0 auto 0 auto;
 
 /* BIG SCREENS*/
 
- @media (min-width: 910px) {
+ @media (min-width: 1150px) {
 	#header{
 		display: none;
 	}
@@ -126,7 +126,7 @@ margin: 0 auto 0 auto;
 	display: none;
 }
 
- @media (min-width: 910px) {
+ @media (min-width: 1150px) {
 	#header-big{
 		display: block;
 	}
@@ -156,7 +156,7 @@ position:relative;
 .navigation li a {
 font-family: 'Oswald', sans-serif;
 background-image: url(../img/ticks.png);
-font-size: 1.2rem;
+font-size: 1.1rem;
 font-weight: 400;
 color:#56565b;
 display:block; /* Making sure a element covers whole li area */
@@ -167,6 +167,7 @@ text-transform:uppercase;
 }
 .navigation li a:hover {
 color:#a03223;
+border-top: 3px solid #a14d48;
 }
 
 /* Sub Cat Menu stuff*/
@@ -204,4 +205,9 @@ padding:18px 2px 10px 2px;
 
 .navigation ul a:hover {
 color:#a03223;
+}
+
+#header-big .current{
+color:#a03223;
+border-top: 3px solid #a14d48;
 }

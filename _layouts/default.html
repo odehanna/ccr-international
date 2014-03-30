@@ -31,13 +31,14 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
 
-  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 </head>
 
 
 
   <body id="top">
     <div class="headercontent">
+      <a href="#" class="scrollup">Scroll</a>
       <header id="masthead">
         <div class="logo">
           <a href="{{site.baseurl}}/" rel="home"><img src="{{site.baseurl}}/img/logo.png" alt="CCR"></a>
@@ -124,6 +125,26 @@ $(document).ready(function () {
   );
 });
   </script>
+
+<!-- BACK TO TOP  -->
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+
+    });
+</script>
 
 </body>
 </html>
