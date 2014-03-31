@@ -57,6 +57,9 @@
 	text-align: left;
 	font-size: 1.2rem;
 	}
+	.unit-l-1-3{
+	width:33.33%;
+	}
 }
 
 img{
@@ -75,4 +78,32 @@ img{
 	margin-right: 2rem;
 	margin-top: 1rem;
 }
+}
+
+
+.row-fluid {
+margin: 0 auto;
+max-width: 1200px;
+}
+
+@media only screen and (min-width: 760px){
+.row-fluid {
+width: 100%;
+}
+}
+
+.row-fluid:before, .row-fluid:after {
+display: table;
+line-height: 0;
+content: "";
+}
+
+.row-fluid:after {
+clear: both;
+}
+
+.row-fluid:before, .row-fluid:after {
+display: table;
+line-height: 0;
+content: "";
 }

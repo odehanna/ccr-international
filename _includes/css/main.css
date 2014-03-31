@@ -23,6 +23,12 @@ body{
    widows: 3;
   }
 
+ h2{
+font-family: 'Oswald', sans-serif;
+padding-bottom: 2rem;
+text-align: left;
+ }
+
 p{
 font-family: 'Domine', serif;
 	line-height: 1.5;
@@ -199,8 +205,11 @@ h1  {
 .containerall{
 	width: 100%;
 	margin: 25px auto -25px auto; /* Keeps it centered */
+	padding-bottom: 2rem;
 }
-
+#main{
+	margin-bottom: 2rem;
+}
 
 .logo img {
   display: block;
@@ -286,9 +295,6 @@ font-size: 1.7rem;
 }
 
 
-.info p{
-	text-align: left;
-}
 
 .info h1{
 	font-size: 1.3rem;
@@ -342,16 +348,20 @@ blockquote cite{
 
 
 /* BOTTOM ------------------------------------------------------------*/
-#bottom {
+#bottom,
+#bottom-copyright {
 	background-image: url(../img/ticks.png);
 	background-repeat: repeat;
 	background-color: #e2e1e1;
   position: relative;
   min-height: 20px;
+  text-align: center;
 
 }
 
-#bottom #content {
+
+#bottom #content,
+#bottom-copyright {
   padding-bottom: 20px;
   text-align: center;
 	color: #56555a;
@@ -361,6 +371,11 @@ blockquote cite{
   	-webkit-tap-highlight-color:transparent !important;
 	font-family: ‘Open Sans’, sans-serif; font-weight: 300;
 }
+
+#bottom-copyright .privacy{
+color: #a03223;
+}
+
 #bottom #content a {
   color: #56555a;
 }
@@ -370,10 +385,11 @@ blockquote cite{
 
 .footer{
 text-align: center;
+margin-top: 5rem;
 }
 
 .footer_copyright{
-	 padding-top: 15px;
+	 padding-top: 2rem;
   padding-bottom: 10px;
   text-align: center;
 	color: #56555a;
@@ -405,10 +421,6 @@ a.footer:hover
 	text-decoration: none;
 }
 
-{
-	color:#56555a;
-	text-decoration: none;
-}
 .footer-menu{
 	display: none;
 }
@@ -426,5 +438,34 @@ a.footer:hover
 	padding-right: 15px;
 }
 
+#bottom-info{
+	background-image: url(../img/ticks.png);
+	background-repeat: repeat;
+	background-color: #e2e1e1;
+	padding-top: 2rem;
+	border-bottom:3px solid #a03223;
+}
 
+#bottom-info p{
+	text-align: left;
+	color:#4c4d4d;
+	font-size: 1rem;
+}
+
+#bottom-info h2{
+padding-bottom: 1rem;
+color:#a03223;
+font-size: 1.1rem;
+}
+
+#bottom-info a{
+padding-bottom: 1rem;
+color:#4c4d4d;
+font-size: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+#bottom-info p{
+	font-size: 0.9rem;
+}
 }
