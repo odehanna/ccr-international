@@ -465,7 +465,8 @@ font-size: 1rem;
 }
 
 @media screen and (min-width: 1000px) {
-#bottom-info p{
-	font-size: 0.9rem;
+#bottom-info{
+	display: none;
+}
 }
 }
