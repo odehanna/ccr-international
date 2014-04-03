@@ -149,6 +149,8 @@
 <script type="text/javascript">
 var $buoop = {
   reminder: 0,
+  onshow: function(infos){},      // callback function after the bar has appeared
+  onclick: function(infos){}
 };
 $buoop.ol = window.onload;
 window.onload=function(){
