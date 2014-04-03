@@ -37,8 +37,6 @@
 
 
   <body id="top">
-    <h3> HIPIKJHH</h3>
-    <!--[if lte IE 6]><script src="{{site.baseurl}}/js/warning.js"></script><script>window.onload=function(){e("{{site.baseurl}}/ie6/")}</script><![endif]-->
     <div class="headercontent">
       <a href="#" class="scrollup">Scroll</a>
       <header id="masthead">
@@ -147,6 +145,17 @@
   });
 </script>
 
+<script type="text/javascript">
+var $buoop = {};
+$buoop.ol = window.onload;
+window.onload=function(){
+ try {if ($buoop.ol) $buoop.ol();}catch (e) {}
+ var e = document.createElement("script");
+ e.setAttribute("type", "text/javascript");
+ e.setAttribute("src", "//browser-update.org/update.js");
+ document.body.appendChild(e);
+}
+</script>
 
 
 <!-- nav big screens  -->
