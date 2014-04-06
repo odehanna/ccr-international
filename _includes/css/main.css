@@ -40,10 +40,17 @@ b{
 	font-size: 1.4rem;
 }
 
+strong{
+		color:#a03021;
+}
+
+em{
+		color:#a03021;
+}
+
 @media only screen and (min-width: 1100px){
 b{
 	font-size: 1.4rem;
-	padding-left: 2rem;
 }
 
 }
@@ -124,12 +131,11 @@ hr {
 
 width:95%;
  border-top: 1px solid #fff;
+ padding-bottom: 1rem;
 
 }
 
-
-
-@media only screen and (min-width: 30rem){
+@media only screen and (min-width: 800px){
 .in{
 		display: none;
 	}
@@ -137,6 +143,7 @@ width:95%;
 	width:70%;
  border-top: 1px solid #fff;
  margin-top: 17px;
+ padding-bottom: 2rem;
 
 }
 	}

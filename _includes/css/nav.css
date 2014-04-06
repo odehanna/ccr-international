@@ -51,10 +51,10 @@ a.link-to, a.link-to:link, a.link-to:active, a.link-to:visited
 	font-size: 0.8rem;
  }
 
-@media only screen and (min-width: 400px){
+@media only screen and (min-width: 500px){
 	a.link-to, a.link-to:link, a.link-to:active, a.link-to:visited, a.link-to:hover
 {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 	}
 

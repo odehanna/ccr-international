@@ -1,3 +1,4 @@
+
 .grid {
   margin: 0;
   padding: 0;
@@ -37,6 +38,9 @@
 	padding-left: 0.3rem;
 	padding-right: 0.3rem;
 }
+#padding-one{
+	padding-top: 3rem;
+}
 
 @media only screen and (min-width: 800px){
 	.gutter-bullet{
@@ -52,6 +56,7 @@
 @media only screen and (min-width: 800px){
 	.unit-m-1-2{
 	width:50%;
+	padding-bottom: 2rem;
 	}
 	.unit-m-1 .paragraph{
 	text-align: left;
@@ -63,7 +68,8 @@
 }
 
 img{
-	width: 100%;
+	width: 90%;
+	padding-bottom: 1rem;
 }
 
 .img-flex{
