@@ -133,6 +133,10 @@ width:95%;
 
 }
 
+	#in-big{
+	border: none;
+	}
+
 @media only screen and (min-width: 900px){
 .in{
 		display: none;
@@ -483,7 +487,7 @@ font-size: 1rem;
 }
 
 .map-big iframe {
-  width:100%;
+  width:70%;
   height: 200px;
   border: 1px solid #a03223;
 
