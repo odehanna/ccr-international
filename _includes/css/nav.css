@@ -51,6 +51,19 @@ a.link-to, a.link-to:link, a.link-to:active, a.link-to:visited
 	font-size: 0.8rem;
  }
 
+ a.link-to-contact, a.link-to-contact:link, a.link-to-contact:active, a.link-to-contact:visited
+{
+	color: grey;
+	text-decoration: underline;
+	font-size: 1.3rem;
+}
+
+ a.link-to-contact:hover{
+ 		color: #a03021;
+	text-decoration: underline;
+	font-size: 1.3rem;
+ }
+
 @media only screen and (min-width: 500px){
 	a.link-to, a.link-to:link, a.link-to:active, a.link-to:visited, a.link-to:hover
 {
