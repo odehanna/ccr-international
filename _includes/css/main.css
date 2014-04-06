@@ -1,7 +1,4 @@
 
-
-
-
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -135,7 +132,7 @@ width:95%;
 
 }
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 900px){
 .in{
 		display: none;
 	}
@@ -311,6 +308,7 @@ font-size: 1.7rem;
 	.info h1{
 	font-size: 2rem;
 	padding-top: 1rem;
+	padding-bottom: 2rem;
 }
 	}
 
