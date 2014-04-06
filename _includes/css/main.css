@@ -528,3 +528,10 @@ font-size: 1rem;
 	display: block;
 }
 }
+
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+
+  width: 100%;
+
+}
