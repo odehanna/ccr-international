@@ -133,7 +133,7 @@ width:95%;
 
 }
 
-	#in-big{
+	.in-big{
 	border: none;
 	}
 
@@ -141,7 +141,7 @@ width:95%;
 .in{
 		display: none;
 	}
-	#in-big{
+	.in-big{
 	width:70%;
  border-top: 1px solid #fff;
  margin-top: 17px;
