@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{page.title}} • {% endif %}CCR INTERNATIONAL{% if page.titleAfter %} • {{page.titleAfter}}{% endif %}</title>
+  <meta name="description" content="{{page.meta}}">
+  <meta name="generator" content=
+  	"HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org">
+	<meta charset="UTF-8">
+
+	<meta name="handheldfriendly" content="true">
+ 	<meta name="mobileoptimized" content="240">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="CCR International - Centre for Conflict Resolution">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="msapplication-TileImage" content="{{site.baseurl}}/pinned.png">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="msapplication-square70x70logo" content="{{site.baseurl}}/tiny.png"/>
+  <meta name="msapplication-square150x150logo" content="{{site.baseurl}}/square.png"/>
+  <meta name="msapplication-wide310x150logo" content="{{site.baseurl}}/wide.png"/>
+  <meta name="msapplication-square310x310logo" content="{{site.baseurl}}/large.png"/>
+
+  <link rel="apple-touch-icon-precomposed" href="{{site.baseurl}}/apple-touch-icon.png">
+  <link rel="icon" type="image/png"  href="{{site.baseurl}}/opera-icon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" type="text/css" media="all" href="{{site.baseurl}}/css/general.css">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+
+
+
+  <body id="top">
+    <!--[if lt IE 9]><script src="{{site.baseurl}}/js/warning.js"></script><script>window.onload=function(){e("{{site.baseurl}}/ie6/")}</script><![endif]-->
+    <div class="headercontent">
+      <a href="#" class="scrollup">Scroll</a>
+      <header id="masthead">
+        <div class="logo">
+          <a href="{{site.baseurl}}/" rel="home"><img src="{{site.baseurl}}/img/logo.png" alt="CCR"></a>
+        </div>
+
+{% include nav-french.html %}
+
+      </header>
+    </div>
+
+
+<!-- home content  -->
+    <div class="containerall" role="main">
+      {{content}}
+
+
+
+
+    <!-- FOORER -->
+
+  <footer class="footer">
+<div class="grid" id="bottom-info">
+ <div class="info unit gutter unit-s-1 unit-m-1-2" role="main">
+        <h2>CALL</h2>
+       <p><a href="tel:613-239-3127 ">613.239.3127 </a></p>
+
+      <p><a href="tel:888-421-7822">888.421.7822</a></p>
+
+          <h2>EMAIL</h2>
+        <p><a href="mailto:info@ccrinternational.com">info@ccrinternational.com</a></p>
+
+
+  </div>
+
+
+       <div class="unit gutter unit-s-1 unit-m-1-2" role="main">
+        <h2>WRITE</h2>
+              <p class="name">OTTAWA<br>
+              2255 St. Laurent Blvd., Suite 203
+              Ottawa, ON  K1G 4K3
+              </p>
+
+           <p class="name">TORONTO<br>
+            1 Yonge St., Suite 1801
+            Toronto, ON  M53 1Y5
+          </p>
+
+            <p class="name">NEW YORK<br>
+          1180 Avenue of the Americas, 8th Floor
+          New York, NY 10036
+          </p>
+  </div>
+</div>
+
+
+      <div class="grid" id="bottom">
+
+       <div class="unit unit-s-1 unit-m-1 unit-l-1-2">
+         <ul class="footer-menu">
+
+               <li><a class="footer" href="{{site.baseurl}}/">HOME</a></li>
+               <li><a class="footer" href="{{site.baseurl}}/about">ABOUT US</a></li>
+               <li><a class="footer" href="{{site.baseurl}}/services">SERVICES</a></li>
+               <li><a class="footer" href="{{site.baseurl}}/resources-tools">RESOURCES & TOOLS</a></li>
+                <li><a class="footer" href="{{site.baseurl}}/contact">CONTACT US</a></li>
+
+        </ul>
+        </div>
+    </div>
+
+
+<div class="grid">
+
+    <div class="info unit gutter unit-s-1 unit-m-1" id="bottom-copyright">
+            <p class="footer_copyright" ><small>© CCR International</small><a class="privacy" href="{{site.baseurl}}/privacy"><small>-Privacy / Legal</small></a></p>
+        </div>
+    </div>
+
+
+  </footer>
+
+  </div>
+
+
+
+
+
+
+<!-- nav small screens  -->
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/js/jquery.mmenu.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('nav#menu').mmenu({
+          slidingSubmenus: false
+        });
+      });
+    </script>
+    <script src="{{site.baseurl}}/js/responsiveslides.min.js"></script>
+    <script>
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
+</script>
+
+
+
+<!-- nav big screens  -->
+  <script type="text/javascript">
+// Executes the function when DOM will be loaded fully
+$(document).ready(function () {
+  // hover property will help us set the events for mouse enter and mouse leave
+  $('.navigation li').hover(
+    // When mouse enters the .navigation element
+    function () {
+      //Fade in the navigation submenu
+      $('ul', this).fadeIn();   // fadeIn will show the sub cat menu
+    },
+    // When mouse leaves the .navigation element
+    function () {
+      //Fade out the navigation submenu
+      $('ul', this).fadeOut();   // fadeOut will hide the sub cat menu
+    }
+  );
+});
+  </script>
+
+
+
+<!-- BACK TO TOP  -->
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+
+    });
+</script>
+
+<!-- video  -->
+<script type="text/javascript">
+  $(document).ready(function(){
+        var video = $("#video-player");
+        var windowObj = $(window);
+
+        function onResizeWindow() {
+            resizeVideo(video[0]);
+        }
+
+        function onLoadMetaData(e) {
+            resizeVideo(e.target);
+        }
+
+        function resizeVideo(videoObject) {
+            var percentWidth = videoObject.clientWidth * 100 / videoObject.videoWidth;
+            var videoHeight = videoObject.videoHeight * percentWidth / 100;
+            video.height(videoHeight);
+        }
+
+        video.on("loadedmetadata", onLoadMetaData);
+        windowObj.resize(onResizeWindow);
+    }
+);
+</script>
+</body>
+</html>
