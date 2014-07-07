@@ -141,7 +141,9 @@
     <script src="{{site.baseurl}}/js/responsiveslides.min.js"></script>
     <script>
   $(function() {
-    $(".rslides").responsiveSlides();
+    $(".rslides").responsiveSlides({
+      timeout: 5000,
+    });
   });
 </script>
 
