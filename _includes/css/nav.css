@@ -163,6 +163,7 @@ list-style:none;
 display: inline-block; /* Show list items inline */
 width:220px;
 position:relative;
+text-transform: uppercase;
 }
 
 /* Playing with Main Categories */
