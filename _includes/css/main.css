@@ -210,9 +210,10 @@ h1  {
 	}
 
 .heading-first{
-			line-height: 1;
+		line-height: 1;
 		letter-spacing: 0.5px;
 		font-size: 1.8rem;
+		text-transform: uppercase;
 		margin-bottom: 2rem;
 		margin-top: 40px;
 		color: #a03021;
@@ -474,6 +475,7 @@ a.footer:hover
 .footer-menu li{
 	display:inline-block;
 	padding-right: 15px;
+	text-transform: uppercase;
 }
 
 #bottom-info{
