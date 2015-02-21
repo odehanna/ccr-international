@@ -37,7 +37,11 @@ text-align: left;
  }
 
 .featue-text{
-	border: solid 5px red;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #fff;
+	border: solid 1px #ddd;
 }
 
 
