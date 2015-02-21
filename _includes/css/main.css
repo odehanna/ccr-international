@@ -36,6 +36,9 @@ padding-bottom: 2rem;
 text-align: left;
  }
 
+.featue-text{
+	border: solid 5px red;
+}
 
 
 p{
