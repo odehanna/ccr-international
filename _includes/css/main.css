@@ -121,7 +121,20 @@ right: 65px;
 
 @media only screen and (min-width: 900px){
 	.bullet{
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
+	width: 100%;
+	}
+}
+.bullet-home {
+	font-family: 'Domine', serif;
+	list-style-type: square;
+	font-size: 1.1rem;
+	line-height: 150%;
+}
+
+@media only screen and (min-width: 900px){
+	.bullet-home{
+	margin: 0 auto;
 	width: 100%;
 	}
 }
