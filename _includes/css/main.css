@@ -40,7 +40,7 @@ text-align: left;
 	margin: 10px auto;
 	padding: 10px 10px 20px 10px;
 	text-align: center;
-	background-color: #ebebeb;
+	background-color: rgba(255,255,255,0.5);
 	border: solid 10px #fff;
 	width:50%;
 }
